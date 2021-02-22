@@ -1,0 +1,4 @@
+Contact: mailto:security@kcomain.dev
+Encryption: https://raw.github.com/kcomain/kcomain/master/id_ed25519.pub
+Preferred-Languages: en
+Canonical: https://dpextras.kcomain.dev/security.txt
