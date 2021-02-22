@@ -1,6 +1,6 @@
 all: setup build
 
-setup:
+setup deps:
 	pip3 install -r requirements.txt -r requirements-dev.txt
 
 build:
@@ -18,3 +18,4 @@ clean:
 	rm -fr build || echo "Nothing to clean in build"
 	rm -fr dist || echo "Nothing to clean in dist"
 	rm -fr dpextras.egg-info || echo "Nothing to clean in dpextras.egg-info"
+	rm -fr docs/* || echo "Nothing to clean in docs/"
