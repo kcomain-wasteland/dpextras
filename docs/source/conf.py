@@ -12,7 +12,7 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('..'))
+sys.path.insert(0, os.path.abspath('../../'))
 
 # -- Project information -----------------------------------------------------
 
@@ -31,6 +31,8 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.coverage',
     'sphinx.ext.duration',
+    # 'sphinx.ext.napoleon',
+    # 'sphinx.ext.autosummary',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -53,3 +55,17 @@ html_theme = 'furo'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+# autosummary_generate = True
+
+extlinks = {
+    'issue': ('https://github.com/Rapptz/discord.py/issues/%s', 'GH-'),
+}
+
+# Links used for cross-referencing stuff in other documentation
+intersphinx_mapping = {
+  'py': ('https://docs.python.org/3', None),
+  'aio': ('https://docs.aiohttp.org/en/stable/', None),
+  'dpy': ('https://discordpy.readthedocs.io/en/stable/', None),
+  # 'req': ('http://docs.python-requests.org/en/latest/', 'requests.inv')
+}

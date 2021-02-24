@@ -1,15 +1,16 @@
 .. dpextras documentation master file, created by
-   sphinx-quickstart on Tue Feb 23 01:57:50 2021.
+   sphinx-quickstart on Wed Feb 24 22:22:16 2021.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to dpextras's documentation!
+Welcome to dpextras' documentation!
 ====================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+**API References**
 
+.. toctree::
+
+   reference.rst
 
 
 Indices and tables
