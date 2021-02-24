@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import setuptools
 
 with open("readme.md", "r", encoding="utf-8") as fh:
@@ -25,8 +26,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
         "Development Status :: 1 - Planning",
     ],
-    packages=['discord.ext.extras'],
-    # packages=setuptools.find_packages(),
+    # packages=['dpextras'],
+    packages=setuptools.find_packages(),
     install_requires=requirements,
     python_requires='>=3.6',
 )
