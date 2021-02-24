@@ -1,4 +1,14 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
 Contact: mailto:security@kcomain.dev
 Encryption: https://raw.github.com/kcomain/kcomain/master/id_ed25519.pub
 Preferred-Languages: en
 Canonical: https://dpextras.kcomain.dev/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQT/FpAf+UwO2FqCgA+7EfWctPyvWQUCYDZwFgAKCRC7EfWctPyv
+WZOZAQDPRsm+ExkdmhNm4fK2aoooWldXGx70bx01tXF6IQ2+tQD/dE94vGGb59zG
+00zplW2Lwf9TSXnXBxFvAjmMMrJwowA=
+=Ewxx
+-----END PGP SIGNATURE-----
