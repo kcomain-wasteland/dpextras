@@ -2,5 +2,8 @@ twine
 furo
 sphinx
 build
-commitizen
 wheel
+
+# sphinx exts
+sphinx-autobuild
+sphinx-copybutton
