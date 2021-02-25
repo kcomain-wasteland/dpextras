@@ -32,6 +32,7 @@ extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.duration',
     'sphinx.ext.viewcode',
+    'sphinx.ext.autosectionlabel',
     # 'sphinx.ext.napoleon',
     # 'sphinx.ext.autosummary',
     'sphinx_copybutton'
@@ -59,6 +60,7 @@ html_theme = 'furo'
 html_static_path = ['_static']
 
 # autosummary_generate = True
+autosectionlabel_prefix_document = True
 
 extlinks = {
     'issue': ('https://github.com/Rapptz/discord.py/issues/%s', 'GH-'),
