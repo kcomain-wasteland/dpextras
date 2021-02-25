@@ -6,6 +6,14 @@
 Welcome to dpextras' documentation!
 ====================================
 
+.. image:: https://readthedocs.org/projects/dpextras/badge/?version=latest
+    :target: http://dpextras.kcomain.dev/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. image:: https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml/badge.svg
+    :target: https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml
+    :alt: CodeQL
+
 dpextras, the useless library that does nothing apart from being there (yes this is discouraging you to use it)
 
 .. note::
