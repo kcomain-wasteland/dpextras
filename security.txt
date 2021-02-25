@@ -4,11 +4,11 @@ Hash: SHA512
 Contact: mailto:security@kcomain.dev
 Encryption: https://raw.github.com/kcomain/kcomain/master/id_ed25519.pub
 Preferred-Languages: en
-Canonical: https://dpextras.kcomain.dev/security.txt
+Canonical: https://dpextras.kcomain.dev/_static/security.txt
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQT/FpAf+UwO2FqCgA+7EfWctPyvWQUCYDZwFgAKCRC7EfWctPyv
-WZOZAQDPRsm+ExkdmhNm4fK2aoooWldXGx70bx01tXF6IQ2+tQD/dE94vGGb59zG
-00zplW2Lwf9TSXnXBxFvAjmMMrJwowA=
-=Ewxx
+iHUEARYKAB0WIQT/FpAf+UwO2FqCgA+7EfWctPyvWQUCYDeiPQAKCRC7EfWctPyv
+WWQuAQCDlmUi71AL6I1+dHLOe8JPcSNU2wNx9w1kppz+zYC2HgEAjvoXf1W4MYdb
+AfSxhV+gm3KXO0qkavT1uSLjblJ7Wg8=
+=C6Nn
 -----END PGP SIGNATURE-----
