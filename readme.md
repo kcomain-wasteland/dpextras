@@ -1,7 +1,7 @@
 # dpextras
 opinionated discord.py extension containing some utility functions for stuff
 
-This is my first module that I intend to release publicly. Constructive criticisms are welcome.
+Constructive criticisms are welcome :)
 
 Note that this module is not meant for public use and contain tailored features that I deem important to use in my bots.
 
@@ -20,10 +20,10 @@ Installing with TestPyPI is discouraged.
 # Using testPyPI
 pip install -i https://test.pypi.org/simple/ dpextras
 
-# Using HTTPS
+# Using git+HTTPS
 pip install git+https://github.com/kcomain/dpextras
 
-# Using SSH
+# Using git+SSH
 pip install git+ssh://git@github.com/kcomain/dpextras
 ```
 
