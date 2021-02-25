@@ -6,15 +6,40 @@
 Welcome to dpextras' documentation!
 ====================================
 
-**API References**
+dpextras, the useless library that does nothing apart from being there (yes this is discouraging you to use it)
+
+.. note::
+    This package and this document is still in works.
+
+    As of 2021-02-25, this package is unusable because there's no actual written code.
+
+Guides
+-------
 
 .. toctree::
+    :maxdepth: 3
+    :titlesonly:
+
+    guides/index.rst
+    examples/index.rst
+
+Other documents
+----------------
+
+.. toctree::
+   :maxdepth: 1
+   :titlesonly:
 
    reference.rst
 
+.. toctree::
+    :caption: Development
+    :hidden:
+
+    GitHub Repository <https://github.com/kcomain/dpextras>
 
 Indices and tables
-==================
+-------------------
 
 * :ref:`genindex`
 * :ref:`modindex`

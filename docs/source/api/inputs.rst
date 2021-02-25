@@ -1,4 +1,5 @@
 .. py:currentmodule:: dpextras
+.. _module-inputs:
 
 Inputs
 =======
