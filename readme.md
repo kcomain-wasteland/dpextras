@@ -1,3 +1,6 @@
+[![Documentation Status](https://readthedocs.org/projects/dpextras/badge/?version=latest)](http://dpextras.kcomain.dev/en/latest/?badge=latest)
+[![CodeQL](https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml)
+
 # dpextras
 opinionated discord.py extension containing some utility functions for stuff
 
