@@ -4,6 +4,7 @@
 - [Bug Reports](#i-found-some-bugs)
   - [Requirements](#bug-report-requirements)
   - [Security vulns](#i-found-some-security-vulnerabilities)
+- [Feature requests](#ive-got-some-ideasstuff-that-you-can–put-in-this)
 - [Pull requests](#this-code-is-garbage)
 - [Code/commit style](#code-style-commit-message-format)
 - [Quick links](#quick-links)
@@ -64,23 +65,6 @@ This project uses the [Conventional Commits](https://www.conventionalcommits.org
 message style. Pull requests that doesn't follow this guideline may not be considered. 
 
 The .editorconfig file should give you a good idea on how to format the code.
-
-<hr>
-
-## Conventional commits types
-*This section will be updated accordingly when new features are added*
-
-This section covers the acceptable conventional commit types and scopes.
-
-### Types
-- fix: bug fixes
-- feat: new features
-- chore: minor things
-- wip: work in progress stuff
-
-### Scopes
-- input: code regarding user inputs
-- menu: code regarding the menu module
 
 <hr>
 
