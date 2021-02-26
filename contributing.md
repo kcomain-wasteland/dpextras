@@ -4,7 +4,7 @@
 - [Bug Reports](#i-found-some-bugs)
   - [Requirements](#bug-report-requirements)
   - [Security vulns](#i-found-some-security-vulnerabilities)
-- [Feature requests](#ive-got-some-ideasstuff-that-you-can–put-in-this)
+- [Feature requests](#ive-got-some-ideasstuff-that-you-can-put-in-this)
 - [Pull requests](#this-code-is-garbage)
 - [Code/commit style](#code-style-commit-message-format)
 - [Quick links](#quick-links)
