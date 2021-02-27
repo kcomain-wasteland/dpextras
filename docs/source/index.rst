@@ -39,6 +39,7 @@ Other documents
    :titlesonly:
 
    reference.rst
+   faq.rst
 
 .. toctree::
     :caption: Development
