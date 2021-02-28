@@ -30,4 +30,10 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=requirements,
     python_requires='>=3.6',
+
+    license='MIT',
+    project_urls={
+        'Documentation': 'https://dpextras.kcomain.dev',
+        'Source': 'https://github.com/kcomain/dpextras'
+    }
 )
