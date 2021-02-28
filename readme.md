@@ -34,4 +34,4 @@ pip install git+ssh://git@github.com/kcomain/dpextras
 Refer to [contributing.md](./contributing.md)
 
 # Docs
-[soon](https://dpextras.kcomain.dev/)
+https://dpextras.kcomain.dev
