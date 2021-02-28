@@ -1,4 +1,4 @@
-.PHONY: upload-test upload
+.PHONY: upload-devpi upload-test upload
 .SILENT: help
 
 VERSION = $(shell cat version.txt)
@@ -12,10 +12,13 @@ build:
 	python3 -m build
 
 upload-test: build
-	python3 -m twine upload --repository testpypi dist/*
+	twine upload "dist/*" -s -r testpypi
+
+upload-devpi: build
+	twine upload "dist/*" -s -r devpi
 
 upload: build
-	(echo "This project should not be released yet. You might be looking for make upload-test." && exit 1) && python3 -m twine upload dist/*
+	(echo "This project should not be released yet. You might be looking for \`make upload-test\` or \`make upload-devpi\`." && exit 1) && twine upload "dist/*" -s
 
 clean:
 	rm -fr build || echo "Nothing to clean in build"
