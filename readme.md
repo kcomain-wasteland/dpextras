@@ -13,7 +13,7 @@ Somewhat stable code should reside in the `master` branch. The `develop` branch 
 I am aware of the millions of other repos that probably do things that I do here already, but I'm the kind of person
 that does stupid useless things.
 
-# Installing
+## Installing
 This project won't be released on PyPI until it's stable enough. In the meantime, you can install this module from 
 source.
 
@@ -30,8 +30,12 @@ pip install git+https://github.com/kcomain/dpextras
 pip install git+ssh://git@github.com/kcomain/dpextras
 ```
 
-# Contributing
+## Contributing
 Refer to [contributing.md](./contributing.md)
 
-# Docs
+## Docs
 https://dpextras.kcomain.dev
+<hr>
+
+## Acknowledgments 
+*If you have contributed to this project, your name will be added here :)*

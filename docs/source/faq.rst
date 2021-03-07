@@ -7,7 +7,7 @@ No point in repeating the same information in 2 different places
 
 How to write a discord.py bot?
 -------------------------------
-The :ref:`discord.py <dpy:intro>` docs is helpful for that.
+The :ref:`discord.py docs <dpy:intro>` is helpful for that.
 
 Why do I need to pass ``ctx`` or ``bot`` to everything?
 --------------------------------------------------------
@@ -30,6 +30,8 @@ Example:
     Union[Client, AutoShardedClient]
 
 means one of ``Client`` or ``AutoShardedClient`` or their subclasses is required.
+
+You can read more about them in the :mod:`typing` docs.
 
 My question isn't documented here!
 -----------------------------------
