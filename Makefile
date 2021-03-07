@@ -4,9 +4,14 @@
 VERSION = $(shell cat version.txt)
 
 all: setup build
+cleanbuild: clean docs build
+devenv: clean deps-dev build docs
+
+setup-dev deps-dev:
+	pip3 install -r requirements-all.txt
 
 setup deps:
-	pip3 install -r requirements-all.txt
+	pip3 install -r requirements.txt
 
 build:
 	python3 -m build
@@ -26,12 +31,13 @@ clean:
 	rm -fr dpextras.egg-info || echo "Nothing to clean in dpextras.egg-info"
 	rm -fr docs/build || echo "Nothing to clean in docs/"
 
+
 .PHONY: docs-serve
-docs-serve:
+docs-serve: deps-dev
 	cd docs && make serve
 
 .PHONY: docs
-docs:
+docs: deps-dev
 	cd docs && make html
 
 .PHONY: help
@@ -42,8 +48,10 @@ help:
 	echo ''
 	echo 'Commands:'
 	echo '    make            : runs make setup, make build'
-	echo '    make       setup: install all dependencies'
+	echo '    make       setup: install required dependencies'
+	echo '    make   setup-dev: install develop deps as well as normal required deps'
 	echo '    make        deps: same as make setup'
+	echo '    make    deps-dev: same as make setup-dev'
 	echo '    make       build: builds the package'
 	echo '    make      upload: uploads the package to PyPI'
 	echo '    make  upload-dev: uploads the package to TestPyPI'
