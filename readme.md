@@ -1,5 +1,6 @@
 [![Documentation Status](https://readthedocs.org/projects/dpextras/badge/?version=latest)](http://dpextras.kcomain.dev/en/latest/?badge=latest)
 [![CodeQL](https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/kcomain/dpextras/actions/workflows/codeql-analysis.yml)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcomain%2Fdpextras.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcomain%2Fdpextras?ref=badge_shield)
 
 # dpextras
 opinionated discord.py extension containing some utility functions for stuff
@@ -39,3 +40,7 @@ https://dpextras.kcomain.dev
 
 ## Acknowledgments 
 *If you have contributed to this project, your name will be added here :)*
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcomain%2Fdpextras.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcomain%2Fdpextras?ref=badge_large)
