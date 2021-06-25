@@ -1,5 +1,0 @@
-
-# Copyleft 2021 kcomain and contributors
-
-msgid "init"
-msgstr ""
