@@ -42,5 +42,5 @@ https://dpextras.kcomain.dev
 *If you have contributed to this project, your name will be added here :)*
 
 
-## License
+## License info
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fkcomain%2Fdpextras.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fkcomain%2Fdpextras?ref=badge_large)
